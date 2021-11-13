@@ -7,10 +7,14 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
+#ejercicioDos {
+    visibility: none;
 
+}
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
@@ -21,18 +25,60 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioTres {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+}
 
 
 /* Ejercicio 4: */
+#ejercicioCuatro{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
 
 /* Acá va tu código */
 
+#ejercicioCinco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+    flex-direction: row-reverse;
+
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
+/* Ejercicio 6. .... se hizo en el 5*/
 
+#ejercicioSiete{
+    flex-direction: column;
+    align-items: center;
 
-/* Ejercicio 6. */
+}
+#elementoUno{
+    background-color: brown;
+    align-self: flex-end;
+}
+
+/* Acá va tu código 
+COMANDOS
+git status
+git add nombre_archivo con ruta
+git add .   y agrega todos los archivos modificados
+                queda todo en verede
+
+git commit -m "tarea compeltada o cualquier cosa"
+                guarda todos los archivos, en nuestro git local
+
+git push                
+
+*/
+
